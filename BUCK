@@ -5,3 +5,8 @@ genrule(
     out = "out.txt",
     cmd = "echo BUILT BY BUCK2> $OUT",
 )
+
+cxx_binary(
+    name = "main",
+    srcs = ["src/main.cpp"],
+)
