@@ -1,0 +1,6 @@
+# Build with optimizations
+@mode/opt
+--config
+cxx.cxx_flags = [
+    "-O3",
+]
